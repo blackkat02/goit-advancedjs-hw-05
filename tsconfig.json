@@ -7,14 +7,15 @@
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "lib": ["ES2021"],
+    "lib": ["dom", "ES2021"],
     "module": "es2020",
     "moduleResolution": "node",
     "preserveConstEnums": true,
     "skipLibCheck": true,
     "strict": true, // ✅ Added strict mode
     "forceConsistentCasingInFileNames": true, // ✅ Added consistent casing check
-    "target": "es2019"
+    "target": "es2019",
+    "sourceMap": true
   },
   "include": ["**/*.ts"]
 }
